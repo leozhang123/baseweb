@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.zl.web</groupId>
+	<artifactId>baseweb</artifactId>
+	<version>0.2.0-SNAPSHOT</version>
+	<name>base framework for web application</name>
+	<packaging>pom</packaging>
+	<description>base framework for web application</description>
+	<developers>
+		<developer>
+			<name>Leo Zhang</name>
+			<roles>
+				<role>java engineer</role>
+			</roles>
+		</developer>
+	</developers>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+	<modules>
+		<module>baseweb-framework-bom</module>
+	</modules>
+	<dependencies>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.0.2</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
