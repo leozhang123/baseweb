@@ -22,6 +22,7 @@
 	</properties>
 	<modules>
 		<module>baseweb-framework-bom</module>
+		<module>zl-commons</module>
 	</modules>
 	<dependencies>
 		<dependency>
