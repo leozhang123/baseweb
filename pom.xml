@@ -23,6 +23,10 @@
 	<modules>
 		<module>baseweb-framework-bom</module>
 		<module>zl-commons</module>
+		<module>zl-18n-zh</module>
+		<module>zl-store</module>
+		<module>zl-service</module>
+		<module>zl-security</module>
 	</modules>
 	<dependencies>
 		<dependency>
